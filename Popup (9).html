@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is a protein extension</title>
+<!--  <script type="text/javascript" src="popup.js"></script>
+    <script type="text/javascript" src="jquery311.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+</head>
+
+<body>
+<!-- particles.js container -->
+<div id="particles-js" style="z-index: -1;"></div>
+<div class="container-fluid" style="display: block; text-align: center;">
+<!-- Below div width has to remain 380px and height as auto rest everything can be changed -->
+<div id="main-content"> 
+	<div class="myStyleClass" style="text-align: left;padding-left:15px;padding-right:15px;border-radius:15px;background-color: #fcc777">
+	<center><h2 style="margin: 0">Notes</h2></center>
+		<div contenteditable="" style="border: 1px solid gray; height: 200px; overflow: auto;  padding: 10px;background-color: wheat" id="notesBox">Create reminder for calling drip campaign guy in hydstartups.
+			<div>new notes
+			</div>
+			<div>save new notesc &nbsp;</div>
+		</div>
+	<center><button class="btn btn-primary" id="saveNotes">Save</button></center>
+	</div>
+	<div class="myStyleClass" style="text-align: left;">
+	<center><h2 class="add-reminder">Add Reminder</h2></center>
+	 <input style="width: 100%" type="text" id="reminder">
+	  <div style="margin-top: 10px;">
+	  <input type="datetime-local" class="ReminderTime">
+	  </div>
+	  <center><button class="btn btn-primary" id="ReminderSave">Save</button></center>
+
+	  
+	</div>
+
+	<div class="reminderList myStyleClass">
+	  	<ul style="list-style:none;">
+	  		<li style="margin-left: -40px; margin-bottom: 10px; font-size: 18px;">
+	  		<div style="width: 100%;border-radius: 15px; background-color: #b0e6c0;  display:inline-block;">
+	  		&nbsp HTML &amp;CSS Changes(July 14 Time - 4:15)
+	  		</div>
+	  		<span style="display: inline-block; width: 20px;"></span>
+	  		</li> 
+	  		<li >
+	  		
+	  		<button class="btn btn-warning "  style="margin-bottom: 10px"  name="0">Snooze 1 Hr
+	  		</button>
+	  		<button class="btn btn-warning " name="0">Snooze 1 Day
+	  		</button>
+	  		<div style="position: relative;" >
+	  		<button class="btn btn-danger"  name="0" style="position: absolute; width: 25%; top: -57px; right: 38px;">Done
+	  		</button></div>
+	  		</li>
+	  		
+	  	</ul>
+	  </div>
+</div>
+</div>
+<div style="display: block; text-align: right;">
+</div>  
+ <script type="text/javascript" src="js/script.js"></script>
+ <script
+  src="http://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
