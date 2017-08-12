@@ -1,16 +1,17 @@
 body{
     margin: 0;
+    background-color: #dccecb;
+    font-family: 'Roboto', sans-serif;
   }
   #main-content{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 390px; 
     height: auto; 
-    display: inline-block; 
-    z-index: 1; 
+    display: inline-block;  
     padding: 10px;
     box-shadow: 0 8px 16px rgba(0,0,0,.28);
-    font-family: 'Sedgwick Ave', cursive;
+    background-color: #d0b6b6;
   }
 
   .reminderList{
@@ -22,7 +23,7 @@ body{
     padding-left: 15px;
     padding-top: 15px;
     padding-right: 15px;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color:  #f2f2f2;
     margin-bottom: 15px;
   }
